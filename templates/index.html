@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<div class="hero">
+    <label for="input_file" id="drop-area">
+            <input type="file" accept="image/jpeg" id="input_file" multiple hidden>
+            <button class="" type="button" onchange="document.getElementById('input_file').change()"></button>
+             <div id="img-view">
+                 <img src="static/media/icon.png" id="img_id">
+                 <p>Drag and drop or click here<br>to upload image</p>
+                 <span>Upload any images from desktop</span>
+             </div>
+             <div id="image_preview" style="width:100%;">
+
+             </div>
+    </label>
+</div>
+<script src="static/js/script.js"></script>
+</body>
+</html>
